@@ -1,0 +1,13 @@
+@import '../../App/App.scss';
+
+.genralBtn{
+    background-color: $main_color;
+    border-radius:$main_boder_radius;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.1rem;
+    &:hover{
+        background-color: white;
+        color:$main_color !important;
+    }
+}

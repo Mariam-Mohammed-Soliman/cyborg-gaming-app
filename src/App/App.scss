@@ -1,0 +1,49 @@
+
+/*variables*/
+$main_bg:#1F2122;
+$main_color:#E75886;
+$section_bg:#27292A;
+$main_font_color:#666666;
+$main_boder_radius:25px;
+$main_icon:#ffff00;
+
+:export {
+    main_icon:$main_icon;
+    primary_icon:$main_color;
+}
+/***************************************************/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:$main_bg ;
+    color:white;
+    ::selection{
+        color: white;
+        background-color: $main_color;
+    }
+}
+
+@media (min-width:992px){
+    .container{
+        max-width: 1490px;
+    }
+}
+
+/*
+@media (min-width: 576px){
+    
+}
+@media (min-width: 992px){
+    
+}
+
+@media (min-width: 1300px){
+    
+}
+
+*/

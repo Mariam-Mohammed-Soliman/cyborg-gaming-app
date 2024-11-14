@@ -1,0 +1,33 @@
+@import '../../App/App.scss';
+
+.LiveStreamCard{
+    border-radius: $main_boder_radius;
+
+    border:1px solid $main_font_color;
+    img{
+        width:18%;
+    }
+
+    p{
+        color:$main_font_color;
+        line-height: 1.8;
+        font-size: 0.9rem;
+        
+    }
+}
+
+
+@media (min-width:992px){
+    .LiveStreamCard{
+        width:31%;
+    }
+
+}
+
+@media (min-width:1200px){
+    .LiveStreamCard{
+        p{
+            font-size: 1.05rem;
+        }
+    }
+}

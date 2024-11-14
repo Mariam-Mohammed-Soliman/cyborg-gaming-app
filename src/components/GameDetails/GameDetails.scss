@@ -1,0 +1,145 @@
+@import '../../App/App.scss';
+
+#GameDetails{
+    h1{
+        font-size: 3rem;
+    }
+    .fortniteContent{
+        border-radius: $main_boder_radius;
+        background-color: $main_bg;
+        .fortniteContentHead{
+            &>div{
+                border-radius: $main_boder_radius;
+                background-color: $section_bg;
+            }
+            .fortniteContentHeadText{
+                p{
+                    color:$main_font_color;
+                }
+                .cardRate{
+                    h6{
+                        line-height: 2;
+                        font-weight: 500;
+                        direction: rtl;
+                        span{
+                            svg{
+                                vertical-align: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+
+    .fortniteContentBody{
+        img{
+            width: 100%;
+            height: 90%;
+            border-radius: $main_boder_radius;
+        }
+    }
+    .fortniteContentBodyParagraph{
+        p{
+            color:$main_font_color;
+            text-align: justify;
+            line-height: 2;
+            font-size: 0.98rem;
+            span{
+                color:rgb(223, 221, 219);
+                margin: 0 0.25rem;
+                &:hover{
+                    color:#F19999;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .downloadNow>*{
+        background: none;
+        border: 1px solid $main_color;
+        font-size: 1rem;
+        color:$main_color !important;
+        &:hover{
+            background: white;
+        border: 1px solid white;
+        color:$main_color !important;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    #GameDetails{
+        h1{
+            font-size: 1.5rem;
+        }
+
+        .fortniteContentHeadText{
+            h5{
+                font-size: 1.2rem;
+            }
+            p{
+                color:$main_font_color;
+            }
+            .cardRate{
+                h6{
+                    line-height: 2;
+                    font-size: 0.8rem;
+                    font-weight: 500;
+                    direction: rtl;
+                    span{
+                        svg{
+                            vertical-align: inherit;
+                        }
+                    }
+                }
+            }
+        }
+
+        .fortniteContentHeadRate{
+            p:nth-child(2){
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+@media (min-width: 576px){
+    #GameDetails{
+        h1{
+            font-size: 2rem;
+        }
+    }
+}
+@media (min-width: 992px){
+    #GameDetails{
+        h1{
+            font-size: 2.3rem;
+        }
+        .fortniteContentHead{
+            &>div{
+                width:45.5%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1300px){
+    #GameDetails{
+        h1{
+            font-size: 3rem;
+        }
+        .fortniteContentHead{
+            &>div{
+                width:46.5%;
+            }
+    
+            .fortniteContentHeadRate{
+                p:nth-child(2){
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

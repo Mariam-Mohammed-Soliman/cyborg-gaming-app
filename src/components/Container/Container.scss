@@ -1,0 +1,12 @@
+@import '../../App/App.scss';
+
+#ContainerComponent{
+    .container{
+        border-radius: $main_boder_radius;
+        background-color: $section-bg;
+        height: inherit;
+        padding:4.3rem 3.5rem 0.5rem;
+
+    }
+}
+

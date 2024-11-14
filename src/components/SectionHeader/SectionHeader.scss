@@ -1,0 +1,49 @@
+@import '../../App/App.scss';
+
+.SectionHeader{
+    span{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .firstPart{
+        text-decoration: underline;
+    }
+    .secondPart{
+        color:$main_color;
+    }
+}
+
+
+@media(max-width: 575px){
+    .SectionHeader{
+        span{
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+    }
+}
+@media(min-width: 576px){
+    .SectionHeader{
+        span{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+}
+@media (min-width: 768px){
+    .SectionHeader{
+        span{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width:1300px){
+    .SectionHeader{
+        span{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+    }
+}

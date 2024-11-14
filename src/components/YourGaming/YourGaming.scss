@@ -1,0 +1,14 @@
+@import '../../App/App.scss';
+
+#YourGaming{
+    margin: 4.5rem 0 2.5rem!important;
+    .mostPopular{
+        padding: 2rem;
+        background-color: $main_bg;
+        border-radius: $main_boder_radius;
+    }
+    .discovrBtn{
+        width:12.5rem;
+        margin-top: -1.5rem;
+    }
+}

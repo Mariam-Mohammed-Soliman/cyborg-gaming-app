@@ -1,0 +1,95 @@
+@import '../../App/App.scss';
+
+#HeroComponent{
+    background: url(../../Assets/images/banner-bg.jpg) no-repeat top right/cover;
+    color:white;
+    padding:6.5rem 4rem;
+    border-radius:$main_boder_radius;
+    .HeroContent{
+        max-width: 40rem;
+        p{
+            font-size: 1.5rem;
+        }
+
+        .heroTitle{
+            font-weight: 700;
+            font-size: 3.1rem;
+
+            span{
+                color:$main_color;
+            }
+        }
+        .browseBtn{
+            width: 10rem;
+            margin-top: 2rem;
+        }
+    }
+}
+@media(max-width: 575px){
+    #HeroComponent{
+        text-align: center;
+        background: url(../../Assets/images/banner-bg.jpg) no-repeat top center/cover;
+        padding:4rem;
+        .HeroContent{
+            max-width:100%;
+            p{
+                font-size: 1.1rem;
+            }
+    
+            .heroTitle{
+                font-size: 2.3rem;
+            }
+        }
+    }
+}
+@media(min-width: 576px){
+    #HeroComponent{
+        text-align: center;
+        background: url(../../Assets/images/banner-bg.jpg) no-repeat top center/cover;
+        padding:4rem;
+        .HeroContent{
+            max-width:100%;
+            p{
+                font-size: 1.3rem;
+            }
+    
+            .heroTitle{
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+@media (min-width: 768px){
+    #HeroComponent{
+        text-align: inherit;
+
+        .HeroContent{
+            max-width: 30rem;
+            p{
+                font-size: 1.2rem;
+            }
+    
+            .heroTitle{
+                font-size: 2.8rem;
+            }
+        }
+    }
+}
+
+/**
+@media(max-width: 575px){
+    
+}
+@media(min-width: 576px){
+    
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px){
+
+}
+**/

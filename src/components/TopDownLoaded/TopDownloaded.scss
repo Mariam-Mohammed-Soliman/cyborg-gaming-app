@@ -1,0 +1,101 @@
+@import '../../App/App.scss';
+
+
+.sectionWrapper{
+        .TopCard{
+            .cardImg img{
+                border-radius: $main_boder_radius;
+                width: 92%;
+            }
+            p{
+                color:$main_font_color;
+                font-size: 1.1rem;
+            }
+            h5{
+                font-size: 1.1rem;
+                font-weight: 800;
+            }
+
+            h6{
+                font-size: 0.88rem;
+                font-weight: 400;
+                span{
+                    svg{
+                        vertical-align: inherit;
+                    }
+                }
+            }
+            .circleDownload{
+                span{
+                    width: 100%;
+                    background: $section_bg;
+                }
+            }
+        }
+    }
+hr{
+    width:90% !important;
+}
+
+@media (max-width: 575px){
+    .circleDownload{
+        span{
+            padding-left:0.68rem !important;
+            padding-right:0.68rem !important;
+        }
+    }
+}
+@media (min-width: 576px){
+    .circleDownload{
+        span{
+            padding-left:1.25rem !important;
+            padding-right:1.25rem !important;
+        }
+    }
+}
+@media (min-width: 992px){
+    .cardImg img{
+        width: 92%;
+    }
+    h5{
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+    
+    p{
+        font-size: 1.1rem;
+    }
+    h6{
+        font-size: 0.88rem;
+        font-weight: 400;
+        span{
+            svg{
+                vertical-align: inherit;
+            }
+        }
+    }
+}
+
+@media (min-width:1300px){
+
+    .cardImg img{
+        width: 78%;
+    }
+    h5{
+        font-size: 1.3rem;
+    }
+    
+    p{
+        font-size: 1.1rem;
+    }
+    h6{
+        font-size: 1rem !important;
+        font-weight: 500;
+
+        span{
+            svg{
+                vertical-align: inherit;
+            }
+        }
+    }
+}

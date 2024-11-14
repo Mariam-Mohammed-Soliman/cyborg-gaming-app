@@ -1,0 +1,15 @@
+@import '../../App/App.scss';
+
+#FooterComponent{
+    p{
+        font-size: 1.1rem;
+        font-weight: 400;
+        a{
+            color:white;
+            text-decoration: none;
+            &:hover{
+                color:$main_color;
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+@import '../../App/App.scss';
+
+
+.sectionWrapper{
+    .cardWrapper{
+        background: $section_bg;
+        border-radius: $main_boder_radius;
+        .card{
+            background:none;
+            border: none;
+            .cardImg{
+                img{
+                    border-radius: $main_boder_radius;
+                }
+                
+                .videoLink{
+                    position: absolute;
+                    top:30%;
+                    left:42%;
+                    background: white;
+                    border-radius: 50%;
+                    height: 3rem;
+                    width:3rem;
+                    svg{
+                        margin: 1rem;
+                        font-size: 1rem;
+                        color:$main_color;
+                    }
+                }
+            } 
+
+            .cardBody{
+                .cardTitle{
+                    p{
+                        color:$main_font_color;
+                    }
+                }
+                .cardRate{
+                    direction: rtl;
+                    span{
+                        margin-right:0.25rem ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 576px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width:48%;
+            .cardBody{
+                .cardTitle{
+                    h5{
+                        font-size: 0.8rem;
+                        font-weight: 800;
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+}
+@media (min-width: 992px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width: 23%;
+
+            .cardBody{
+                .cardTitle{
+                    h5{
+                        font-size: 1rem;
+                        font-weight: 800;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width: 23%;
+
+            
+        }
+    }
+}
+
+@media (min-width: 1300px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width: 22%;
+            .cardBody{
+                .cardTitle{
+                    h5{
+                        font-size: 1.13rem;
+                        font-weight: 800;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+

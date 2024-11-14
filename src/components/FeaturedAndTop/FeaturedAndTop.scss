@@ -1,0 +1,88 @@
+@import '../../App/App.scss';
+
+#FeaturedAndTopComponent{
+    .row>*{
+        background: $main_bg;
+        padding-top:0.5rem;
+        border-radius: $main_boder_radius;
+        .owl-nav{
+            display: block !important;
+            position: absolute;
+            top: -9%;
+            right: 2%;
+            font-size: 2rem;
+            color:$main_font_color;
+            font-weight: 700;
+            &:hover{
+                button:hover{
+                    background: none;
+                    color:$main_color;
+                }
+
+            }
+            
+            }
+
+    }
+    .viewGames>*{
+        color:$main_color !important;
+        font-weight: bolder;
+        text-decoration: none;
+
+    }
+}
+
+@media (max-width: 575px){
+    #FeaturedAndTopComponent{
+        .row>*{
+            margin-bottom: 2rem;
+            .owl-nav{
+                top: -9%;
+                right: 2%;
+                font-size: 1.6rem;
+                }
+                
+            }
+        }
+}
+@media (min-width: 768px){
+    #FeaturedAndTopComponent{
+        .row>*{
+            margin-bottom: 2rem;
+            .owl-nav{
+                top: -20%;
+                right: 2%;
+                font-size: 2.2rem;
+                }
+                
+            }
+        }
+}
+@media (min-width: 992px){
+    #FeaturedAndTopComponent{
+        .row>*{
+            margin-bottom:inherit;
+
+            .owl-nav{
+                top: -19%;
+                right: 2%;
+                font-size: 2.2rem;
+                }
+                
+            }
+        }
+}
+
+@media (min-width:1300px){
+    #FeaturedAndTopComponent{
+        .row>*{
+            .owl-nav{
+                top: -20%;
+                right: 2%;
+                font-size: 2.5rem;
+                }
+                
+            }
+        }
+
+}

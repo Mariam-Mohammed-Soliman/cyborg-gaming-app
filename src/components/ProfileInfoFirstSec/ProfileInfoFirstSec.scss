@@ -1,0 +1,108 @@
+@import '../../App/App.scss';
+
+#ProfileInfoFirstSec{
+    border-bottom: 1px solid $main_font_color;
+    img{
+        border-radius: $main_boder_radius;
+    }
+    .offline{
+        background: $main_color;
+        width:6rem;
+        height:2.5rem;
+        padding-top:0.5rem;
+        font-size: 1rem;
+        border-radius: 5rem;
+    }
+
+    .profileDesc{
+        color:$main_font_color;
+    }
+
+    .StartLiveStream>*{
+        width:12rem;
+        background: none !important;
+        border:1px solid $main_color;
+        color:$main_color !important;
+
+        &:hover{
+            background: white !important;
+            border-color: white;
+        }
+        
+    }
+
+    .statisticInfo{
+        padding:5rem 3rem;
+        .infoContent{
+            background: $section_bg;
+            padding:1rem 2rem;
+            border-radius: $main_boder_radius;
+            &>div:nth-last-child(1){
+                border: none;
+            }
+            .row{
+                padding:1rem 0;
+                border-bottom: 1px solid $main_font_color;
+                .col-md-10{
+                    color:$main_font_color;
+                }
+                .col-md-2{
+                    color: $main_color;
+                    direction:rtl;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px){
+    #ProfileInfoFirstSec{
+        .offline{
+            padding-top:0.5rem;
+            font-size: 1rem;
+        }
+        .StartLiveStream>*{
+            width:12rem;    
+        }
+        
+        .profileDesc{
+            font-size: 0.9rem;
+        }
+        .statisticInfo{
+            padding:0rem 1rem;
+            .infoContent{
+                padding:1rem;
+                font-size: 0.99rem;
+                .row{
+                    padding:1rem 0;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1250px){
+    #ProfileInfoFirstSec{
+        .offline{
+            padding-top:0.5rem;
+            font-size: 1rem;
+        }
+        .StartLiveStream>*{
+            width:12rem;    
+        }
+        .profileDesc{
+            font-size: 1.1rem;        }
+        .statisticInfo{
+            padding:5rem 3rem;
+            .infoContent{
+                padding:1rem 2rem;
+                .row{
+                    padding:1rem 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1300px){
+    
+}

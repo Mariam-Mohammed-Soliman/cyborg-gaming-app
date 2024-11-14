@@ -1,0 +1,86 @@
+@import '../../App/App.scss';
+
+.OtherRelatedCard{
+
+    .OtherCardImg{
+        img{
+            border-radius: $main_boder_radius;
+            
+        }
+    }
+    p{
+        color:$main_font_color;
+    }
+    .cardRate{
+        h6{
+            font-weight: 500;
+            direction: rtl;
+            span{
+                svg{
+                    vertical-align: inherit;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .OtherCardImg img{
+        width: 100%;
+        height: 92%;
+    }
+}
+@media (min-width: 576px){
+    .OtherCardImg img{
+        width: 92%;
+        height: 92%;
+    }
+}
+@media (min-width: 992px){
+    .OtherCardImg img{
+        width: 92%;
+        height: 92%;
+    }
+    h5{
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+    
+    p{
+        font-size: 1.1rem;
+    }
+    h6{
+        font-size: 0.88rem;
+        font-weight: 400;
+        span{
+            svg{
+                vertical-align: inherit;
+            }
+        }
+    }
+}
+
+@media (min-width:1300px){
+
+    .OtherCardImg img{
+        min-width: 100%;
+        min-height: 88%;
+    }
+    h5{
+        font-size: 1.3rem;
+    }
+    
+    p{
+        font-size: 1.1rem;
+    }
+    h6{
+        font-size: 1rem !important;
+        font-weight: 500;
+
+        span{
+            svg{
+                vertical-align: inherit;
+            }
+        }
+    }
+}

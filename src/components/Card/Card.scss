@@ -1,0 +1,109 @@
+@import '../../App/App.scss';
+
+
+.sectionWrapper{
+    .cardWrapper{
+        background: $section_bg;
+        border-radius: $main_boder_radius;
+        .card{
+            background:none;
+            border: none;
+            .cardImg img{
+                border-radius: $main_boder_radius;
+            }
+
+            .cardBody{
+                .cardTitle{
+                    p{
+                        color:$main_font_color;
+                    }
+                }
+                .cardRate{
+                    h6{
+                        line-height: 1.5;
+                        font-weight: 500;
+                        span{
+                            svg{
+                                vertical-align: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 576px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width:48%;
+            .cardBody{
+                .cardTitle{
+                    h5{
+                        font-size: 1.3rem;
+                        font-weight: 800;
+                    }
+                    
+                    p{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width: 23%;
+
+            .cardBody{
+                .cardTitle{
+                    h5{
+                        font-size: 1rem;
+                        font-weight: 800;
+                    }
+                    
+                    p{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width: 23%;
+
+            
+        }
+    }
+}
+
+@media (min-width: 1300px){
+    .sectionWrapper{
+        .cardWrapper{
+            max-width: 22%;
+            .cardBody{
+                .cardTitle{
+                    h5{
+                        font-size: 1.13rem;
+                        font-weight: 800;
+                    }
+                    
+                    p{
+                        font-size: 1.15rem;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
